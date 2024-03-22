@@ -1,0 +1,20 @@
+package br.com.senaisp.bauru.felipe.secao05;
+
+public class ExercicioPratico {
+
+	public static void main(String[] args) {
+	
+		//Exemplo de concatenação do string
+		//inicio
+		String s1 = "susan";
+		string s2 = "Roberts";
+		S1 = s1 + s2;
+		
+		System.out.println(s1);
+		
+		
+		
+
+	}
+
+}
