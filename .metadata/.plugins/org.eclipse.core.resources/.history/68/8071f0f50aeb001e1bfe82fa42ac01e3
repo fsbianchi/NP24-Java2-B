@@ -1,0 +1,10 @@
+package br.com.senaisp.bauru.felipe.licao05.exercicio;
+
+public class EmploSwitch {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
