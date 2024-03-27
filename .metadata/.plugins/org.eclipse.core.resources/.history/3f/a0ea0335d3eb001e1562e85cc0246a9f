@@ -1,0 +1,10 @@
+package br.com.senaisp.bauru.felipe.licao06.lacowhile;
+
+public class Shape {
+	public void criarRetangulo(int lar, int alt) {
+		
+	}
+	public void criarTriangulo(int lar, int alt) {
+		
+	}
+}

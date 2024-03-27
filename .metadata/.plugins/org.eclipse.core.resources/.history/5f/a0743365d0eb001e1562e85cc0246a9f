@@ -1,0 +1,15 @@
+package br.com.senaisp.bauru.felipe.licao06.lacowhile;
+
+import java.util.Scanner;
+
+public class TesteSenha {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		int senha;
+		int tentativas = 0;
+		final int PASSOWORD = 1597;
+
+	}
+
+}
