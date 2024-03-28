@@ -1,0 +1,11 @@
+package br.com.senaisp.bauru.felipe.licao07.exemplos;
+
+public class ContaBancaria {
+	public int agencia;
+	public int banco;
+	public int numeroConta;
+	
+
+	
+	
+}

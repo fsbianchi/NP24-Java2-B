@@ -1,0 +1,24 @@
+package br.com.senaisp.bauru.felipe.licao07.exercicio;
+
+import java.util.Random;
+
+public class MaquinaFliperama {
+	private Random rnd;
+	private int custoCredito;
+	private String nomeJogo;
+	
+	//constructor
+	public MaquinaFliperama(String nome) {
+		nomeJogo = nome;
+		rnd = new random();
+		custoCredito = rnd.nextInt(5)+1;
+	}
+
+	public int getCustoCredito() {
+		return custoCredito;
+	}
+
+	public String getNomeJogo() {
+		return nomeJogo;
+	}
+}

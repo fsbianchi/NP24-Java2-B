@@ -5,14 +5,16 @@
     <fullyQualifiedTypeName name="javax.swing.plaf.OptionPaneUI"/>
     <fullyQualifiedTypeName name="java.lang.NullPointerException"/>
     <fullyQualifiedTypeName name="java.util.regex.Matcher"/>
-    <fullyQualifiedTypeName name="java.util.Random"/>
     <fullyQualifiedTypeName name="java.lang.Math"/>
     <fullyQualifiedTypeName name="javax.swing.JOptionPane"/>
     <fullyQualifiedTypeName name="br.com.senaisp.bauru.felipe.licao04.exercicio.ProcessadorNome"/>
     <fullyQualifiedTypeName name="javax.swing.SwingConstants"/>
-    <fullyQualifiedTypeName name="java.lang.String"/>
     <fullyQualifiedTypeName name="javax.swing.event.SwingPropertyChangeSupport"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
-    <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="br.com.senaisp.bauru.felipe.licao06.lacowhile.Shape"/>
+    <fullyQualifiedTypeName name="br.com.senaisp.bauru.felipe.licao07.exemplos.ContaBancaria"/>
+    <fullyQualifiedTypeName name="br.com.senaisp.bauru.felipe.licao07.exercicio.Cartao"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="java.util.Random"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
 </qualifiedTypeNameHistroy>
