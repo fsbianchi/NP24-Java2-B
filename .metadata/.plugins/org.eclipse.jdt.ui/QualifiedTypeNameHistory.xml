@@ -13,8 +13,9 @@
     <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="br.com.senaisp.bauru.felipe.licao06.lacowhile.Shape"/>
     <fullyQualifiedTypeName name="br.com.senaisp.bauru.felipe.licao07.exemplos.ContaBancaria"/>
-    <fullyQualifiedTypeName name="br.com.senaisp.bauru.felipe.licao07.exercicio.Cartao"/>
-    <fullyQualifiedTypeName name="java.lang.String"/>
     <fullyQualifiedTypeName name="java.util.Random"/>
+    <fullyQualifiedTypeName name="br.com.senaisp.bauru.felipe.licao07.exercicio.Cartao"/>
+    <fullyQualifiedTypeName name="br.com.senaisp.bauru.felipe.licao07.exercicio.Terminal"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
     <fullyQualifiedTypeName name="java.lang.System"/>
 </qualifiedTypeNameHistroy>

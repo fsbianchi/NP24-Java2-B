@@ -11,7 +11,7 @@ public class TesteJogo {
 		//intanciando terminal
 		Terminal tm = new Terminal();
 		//carregando saldo para cartão
-		tm.carregarCartao(ct02, 140);
+		tm.carregarCartao(ct02, 100);
 		tm.carregarCartao(ct01, 50);
 		//Criando duas máquinas de jogo
 
@@ -31,10 +31,7 @@ public class TesteJogo {
 		m1.lerCartão(ct01);
 		System.out.println("Transferir um pouco para o cartão 1...\n\n");
 		tm.transferirCreditos(ct01, ct02, 10);
-		System.out.println("Consultar saldos de prêmios...\n\n\n");
-		tm.consultarPremios();
-		System.out.println("Resgatando um dos prêmios");
-		tm.resgatarPremio(ct01, 1);
+		System.out.println();
 
 		
 				}

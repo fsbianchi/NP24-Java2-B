@@ -32,7 +32,7 @@ public class TesteJogo {
 		System.out.println("Transferir um pouco para o cartão 1...\n\n");
 		tm.transferirCreditos(ct01, ct02, 10);
 		System.out.println("Consultar saldos de prêmios...\n\n\n");
-		tm.consultarPremios();
+		tm.consultarPremios(ct01);
 		System.out.println("Resgatando um dos prêmios");
 		tm.resgatarPremio(ct01, 1);
 
