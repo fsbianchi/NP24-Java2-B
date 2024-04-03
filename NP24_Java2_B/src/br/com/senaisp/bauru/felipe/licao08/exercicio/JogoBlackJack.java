@@ -45,17 +45,6 @@ public class JogoBlackJack {
 			System.out.println(ct);
 			
 		}
-		
-	} while (cond.equals("S"));
-	//Hora de ver o vencedor!!
-	if (score1 == score2) {
-		System.out.println("Empate!!!");
-	}else if (score1>score2 && score1>22) {
-		System.out.println(jogador1 + "Você é o vencedor!");
-	}else if (score2>score1 && score2<22) {
-		System.out.println( jogador2 + "Você é o vencedor!");
-		
-	}else {
-		System.out.println();
+	
 	}
 }

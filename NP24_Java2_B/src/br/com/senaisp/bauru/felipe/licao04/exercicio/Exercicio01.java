@@ -12,7 +12,6 @@ public class Exercicio01 {
 		System.out.println("Hipotenusa é " + hip);
 		//Sorteando os valores
 		System.out.println("Valor dos dados foi " + mc.jogarDados());
-
 	}
 
 }
