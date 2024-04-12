@@ -2,51 +2,67 @@ package br.com.senaisp.bauru.felipe.licao09.exemplo03;
 
 
 
-import java.awt.Polygon;
-
 import javafx.application.Application;
 import javafx.scene.Group;
 import javafx.scene.Scene;
 import javafx.scene.paint.Color;
+import javafx.scene.paint.CycleMethod;
 import javafx.scene.paint.LinearGradient;
+import javafx.scene.paint.RadialGradient;
+import javafx.scene.paint.Stop;
+import javafx.scene.shape.Polygon;
 import javafx.stage.Stage;
-import javafx.util.converter.DoubleStringConverter;
 
-public class CoresEFormas extends Application 
-
-{
+public class CoresEFormas extends Application {
 
 	public static void main(String[] args) {
-		// inicio
 		launch(args);
 	}
 
 	@Override
-	public void start(Stage arg0) throws Exception {
+	public void start(Stage primeiraStage) throws Exception {
 		Group root = new Group();
 		//Criando componentes
 		criarComponentes(root);
-		//criando a scena
+		//Criando a scena
 		Scene scena = new Scene(root,600,400,Color.BLACK);
-	
-		//Configuração a stage
+		//Configurando a stage
 		primeiraStage.setTitle("Cores e Formas");
 		primeiraStage.setScene(scena);
 		primeiraStage.show();
-		
 	}
 
 	private void criarComponentes(Group root) {
-		LinearGradient lg = new LinearGradient(0, 0, 0, 0, false, null, )
-		Polygon pir = new Polygon(new double[]{
+		LinearGradient lg = new LinearGradient(
+				//StartX, StartY, EndX, EndY, Proporcional?,
+				// Forma de ciclo de gradiente, Stops
+				0, 1, 1, 0, true, CycleMethod.NO_CYCLE, 
+				new Stop[] {
+						new Stop(0,Color.BLACK),
+						new Stop(0.5,Color.YELLOW),
+						new Stop(1,Color.BLUE)
+				});
+		
+		RadialGradient rg = new RadialGradient(
+				0, 0, 0.5, 0.5, 1, true, 
+				CycleMethod.NO_CYCLE, 
+			new Stop[] {
+	            new Stop(0, Color.YELLOW),
+	            new Stop(0.25, Color.RED),
+	            new Stop(0.5, Color.TRANSPARENT)
+	    	});
+		
+		Polygon pir = new Polygon(new double[] {
 				210.0, 10.0,
 				210.0, 210.0,
-				10.0, 210.0
-			});
-		pir.setFill(Color.BLUE);
-		//colando no nó root
-		root.getChildren().add(pir);	
-		
+				10.0, 210.0,
+		});
+		//pir.setFill(Color.rgb(0, 0, 255, 0.5));
+		pir.setFill(rg);
+		//Posicionando o triangulo
+		pir.setLayoutX(200);
+		//Colocando no nó root
+		root.getChildren().add(pir);
 	}
-
 }
+	
